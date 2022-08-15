@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Anime Facts</string>
+    <string name="Facts">Facts</string>
+    <string name="search_hint">Search Anime</string>
+    <string name="test_facts">- Ishvalans And Ametris Conflict Is Based On Hokkaido s Ainu People.
+        - Arakawa Actually Bought Military Prop Guns For Drawing References.
+        - Arakawa Interviewed WWII Japanese Veterans For The Ishval War Arc.
+        - Law Of Equivalent Exchange Is Not Strictly Based On Eastern Or Western Alchemy.
+        - The Military Officers Are Named After Military Vehicles.
+        - Arakawa s First Name Is Hiromi.
+        - Truth Is A Mirrored Version Of Whoever Enters The Gate.
+        - There Is Only One Known Photo Of Hiromu Arakawa.
+    </string>
 </resources>

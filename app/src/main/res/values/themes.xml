@@ -13,4 +13,10 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title"/>
+    <style name="toolbar">
+        <item name="titleTextColor">@color/black</item>
+        <item name="navigationIconTint">@color/black</item>
+    </style>
 </resources>
