@@ -11,4 +11,7 @@
         - Truth Is A Mirrored Version Of Whoever Enters The Gate.
         - There Is Only One Known Photo Of Hiromu Arakawa.
     </string>
+    <string name="name">Dororo</string>
+    <string name="facts_headline">Facts:</string>
+    <string name="home_headline">Explore</string>
 </resources>

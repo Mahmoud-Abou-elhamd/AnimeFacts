@@ -3,6 +3,7 @@ package com.example.android.animefacts.presentation.base
 import android.os.Bundle
 import android.view.LayoutInflater
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.viewbinding.ViewBinding
 
 abstract class BaseActivity<VB: ViewBinding> : AppCompatActivity() {
@@ -13,6 +14,7 @@ abstract class BaseActivity<VB: ViewBinding> : AppCompatActivity() {
         get() = _binding
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        installSplashScreen()
         super.onCreate(savedInstanceState)
         _binding = inflate(layoutInflater)
         setContentView(_binding.root)

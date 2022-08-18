@@ -3,12 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1635" />
         <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/drawable/search_border.xml" value="0.1635" />
         <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/activity_main.xml" value="0.25885416666666666" />
         <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/anime_item.xml" value="0.25" />
         <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/custom_toolbar.xml" value="0.271875" />
         <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/fragment_facts.xml" value="0.2601851851851852" />
-        <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/fragment_home.xml" value="0.271875" />
+        <entry key="..\:/Programming/chance/tasks/AnimeFacts/app/src/main/res/layout/fragment_home.xml" value="0.2601851851851852" />
       </map>
     </option>
   </component>

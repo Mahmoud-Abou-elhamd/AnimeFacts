@@ -32,10 +32,12 @@ class AnimeAdapter(private val animeList: List<Anime>, val animeListener: AnimeL
 
     override fun onBindViewHolder(holder: AnimeHolder, position: Int) {
         val currentAnime = animeList[position]
-        holder.name.text = animeList[position].name
-        Glide.with(holder.itemView.context)
-            .load(animeList[position].image)
-            .into(holder.image)
+        if(animeList[position].id != 4){
+            holder.name.text = animeList[position].name
+            Glide.with(holder.itemView.context)
+                .load(animeList[position].image)
+                .into(holder.image)
+        }
 
         holder.animeCard.setOnClickListener {
             animeListener.onClickItem(animeList[position].id, animeList[position].name)
